@@ -1,0 +1,15 @@
+{
+    "name": "my-first-electron-app",
+    "version": "0.1.0",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^6.0.0"
+    },
+    "dependencies": {
+        "mpris-service": "^2.1.0",
+        "titlebar": "^1.4.0"
+    }
+}

@@ -1,0 +1,10 @@
+div.titlebar {
+    background-color: inherit;
+    width:100px;
+}
+.titlebar-fullscreen {
+    display: none;
+}
+body {
+    margin: 0;
+}
