@@ -11,6 +11,11 @@ var player = Player({
 player.on('quit', function () {
 	process.exit();
 });
+player.getPosition = function() {
+  // return the position of your player
+  return 0;
+}
+
 function setMprisState({title, album, artist}) {
 /*
     Object.assign(player.metadata, {

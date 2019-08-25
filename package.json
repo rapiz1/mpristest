@@ -6,7 +6,8 @@
         "start": "electron ."
     },
     "devDependencies": {
-        "electron": "^6.0.0"
+        "electron": "^6.0.0",
+        "electron-rebuild": "^1.8.5"
     },
     "dependencies": {
         "mpris-service": "^2.1.0",

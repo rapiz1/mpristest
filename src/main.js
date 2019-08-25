@@ -7,9 +7,11 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true,
         },
-        frame: false
+        frame: false,
+        transparent: true
     })
     win.loadFile('src/index.html');
-    win.webContents.openDevTools();
+//    win.webContents.openDevTools();
 }
-app.on('ready', createWindow);
+const onAppReady = createWindow;
+app.on('ready', () => setTimeout(onAppReady, 500));
