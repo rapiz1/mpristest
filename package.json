@@ -10,7 +10,6 @@
         "electron-rebuild": "^1.8.5"
     },
     "dependencies": {
-        "mpris-service": "^2.1.0",
-        "titlebar": "^1.4.0"
+        "mpris-service": "^2.1.0"
     }
 }
